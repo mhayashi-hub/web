@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>画像の貼り付け練習</title>
+    <style>
+        img {
+            width: 100%;
+            background-color: rgba(52, 22, 210, 0.1);
+        }
+
+        figcaption {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,23 +37,36 @@
         <h2>画像表示例１</h2>
         <article>
             <p>コンピュータ基板のイメージ画像とか。かなり古い物の拡張キット。</p>
-            <img src="./images/EjYXSdoU4AAPJOO.jpg" alt="TK-8080サブボード基板キット">
+            <figure>
+                <img src="./images/EjYXSdoU4AAPJOO.jpg" alt="TK-8080サブボード基板キット">
+                <figcaption>TK-80拡張キットのセット内容</figcaption>
+            </figure>
         </article>
         <article>
             <p>実際に使われていたコンピュータの基板画像とか。Macintoshの初期の名機Plusの基板。</p>
-            <img src="./images/apple_macplus_pcb.jpg" alt="Macintosh Plusの基板、いわゆるロジックボード">
+            <figure>
+                <img src="./images/apple_macplus_pcb.jpg" alt="Macintosh Plusの基板、いわゆるロジックボード">
+                <figcaption>Mac Plusロジックボード外観</figcaption>
+            </figure>
         </article>
         <h2>画像表示例2</h2>
         <article>
-            <p>ファイル形式の異なる画像ファイルの表示例1</p>
-            <img src="./images/alpha.png" alt="png画像の例">
-            <p>ファイル形式の異なる画像ファイルの表示例2</p>
-            <img src="./images/d728fd64-343f-467d-87a6-86b67308f027_base_resized.jpg" alt="jpg画像の例">
+            <p>ファイル形式の異なる画像ファイルの表示例</p>
+            <figure>
+                <img src="./images/alpha.png" alt="png画像の例">
+                <figcaption>png透過チャンネルあり画像の表示例(背景色あり、画像自体は黄緑の三角を重ねたもの)</figcaption>
+                <img src="./images/d728fd64-343f-467d-87a6-86b67308f027_base_resized.jpg" alt="jpg画像の例">
+                <figcaption>gif画像の表示例(透過チャンネルなし)</figcaption>
+            </figure>
         </article>
         <h2>iframeのサンプル</h2>
         <article>
             <p>iframeのテスト</p>
-            <iframe src="" frameborder="0"></iframe>
+            <figure>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.635344045193!2d141.35332841522873!3d43.0491033791466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2a27ee23ea55%3A0xdedc877edeaf642!2z5YyX6Zai5p2x5a2m6Zmi!5e0!3m2!1sja!2sjp!4v1630900665599!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </figure>
         </article>
     </main>
 </body>
