@@ -1,10 +1,16 @@
 @charset "utf-8";
 
+body {
+    background-color: #889900;
+    font-size: 32px;
+}
+
 #font1 {
-    color: cyan;
-    font-size: 24px;
-    font-family: serif;
+    color: blue;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    background-color: ghostwhite;
 
 }
 
@@ -14,14 +20,28 @@
     font-family: sans-serif;
     font-weight: lighter;
     font-style: italic;
+    font-weight: 600;
 }
 
 #layout1 {
     text-align: right;
     line-height: 2em;
+    background-color: black;
+    color: blue;
 }
 
 #layout2 {
-    text-align: center;
+    text-align: left;
     line-height: 160%;
+    color: white;
+    background-color: grey;
+}
+
+#layout3 {
+    text-align: center;
+    font-size: 3em;
+    color: red;
+    line-height: 1em;
+    font-weight: bold;
+    background-color: white;
 }

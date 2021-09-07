@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.totaldesign{
+    font-size: 25pt;
+    font-style:normal;
+    text-align: center;
+    width: 60%;
+}
+
+.textline{
+    text-align: center;
+    font-size: 40pt;
+    font-style: italic;
+    background-color: blue;
+    color: whitesmoke;
+    margin: 1%;
+}
+.textdesign{
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color : green;
+}
