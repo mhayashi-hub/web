@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+html {
+    font-size : 16px;
+}
+
+body{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    background-color: rgb(233, 232, 232);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2{
+    color: indigo;
+}
+
+h3 {
+    color:black;
+}
+
+p{
+    /* font-family: 'Sawarabi Mincho', sans-serif; */
+}
+
+li{
+
+}
