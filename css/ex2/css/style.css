@@ -6,7 +6,7 @@ html {
 
 body{
     font-family: 'Sawarabi Mincho', sans-serif;
-    background-color: rgb(233, 232, 232);
+    background-color: powderblue;
 }
 
 .container{
@@ -15,7 +15,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Sawarabi Gothic', sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
 }
 
 h1 {

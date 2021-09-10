@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* *,*::before, *::after {
+    border: solid slategrey 5px;
+} */
+
+html {
+    /* font-family: 'Hina Mincho', serif; */
+    font-family: 'Kosugi', sans-serif;
+}
+
+.test1{
+    background-color: burlywood;
+    border: solid 2px brown;
+    width: auto;
+    height: auto;
+}
+
+.modify-test2{
+    margin:2rem 1rem 1rem;
+    background-color: darkkhaki;
+    border: dotted 2px blue;
+    width: auto;
+    height: auto;
+}
+
+.main-explain{
+
+}
+
+.sub-explain{
+    font-family:font-family: 'Hina Mincho', serif;
+}
+
+.sub-explain2{
+    font-family:font-family: 'Hina Mincho', serif;
+    font-size: 0.6rem;
+    box-sizing: border-box;
+    border : dashed black 2px;
+}
