@@ -23,18 +23,60 @@ html {
     width: auto;
     height: auto;
 }
-
+.article-title{
+    font-style: bold;
+    color: midnightblue;
+}
 .main-explain{
-
+font-style: bold;
+color: green;
 }
 
 .sub-explain{
     font-family:font-family: 'Hina Mincho', serif;
 }
-
+.sub-explain-content {
+    background-color:cadetblue;
+}
+.sub-explain-padding {
+    padding
+}
 .sub-explain2{
     font-family:font-family: 'Hina Mincho', serif;
     font-size: 0.6rem;
+    width: 800px;
+    box-sizing: content-box;
+    border : dashed black 2px;
+    margin: 1rem;
+    padding: 10px;
+}
+
+.sub-explain3{
+    font-family:font-family: 'Hina Mincho', serif;
+    font-size: 0.6rem;
+    width: 800px;
     box-sizing: border-box;
     border : dashed black 2px;
+    margin: 1rem;
+    padding: 10px;
+}
+
+.modify-test3{
+    margin:1rem 2rem 1rem 3rem;
+    background-color: antiquewhite;
+    border: dashed 2px red;
+    width: auto;
+    height: auto;
+}
+
+.lbox{
+    display: block;
+}
+
+.linline{
+    display: inline;
+}
+
+.linlineb{
+    display: inline-block;
 }

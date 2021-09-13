@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    width : 85%;
+    margin: 1rem auto ;
+}
+
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 24%;
+    /* inline boxでのbox位置ぞろえ指定 */
+    vertical-align: top;
+}
+/* >を要素につけて子要素を指定すると、その要素内のみの子要素を指定可能 */
+/* inline blockの領域でのリンクをテキスト部分のみからbox領域に変更i、スマホ向け表示 */
+.inline-block>a {
+    display:block;
+    text-decoration: none;
+    text-align:center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+main>article>article {
+    line-height: 1.5rem;
+}
+
+footer>p {
+    line-height: 1.2;
+    margin : 2% 10% 5%;
+}
+
+.mb-1rem {
+    margin-bottom:1rem;
+}
+
+.flex {
+    display: flex;
+    /* ページでの段組み調整を自動調整して簡易に配置できるプロパティ */
+}
+
+.item {
+    flex:auto;
+    width: 33%;
+}
