@@ -70,3 +70,8 @@ footer>p {
     flex:auto;
     width: 33%;
 }
+
+.item2 {
+    flex: auto;
+    width: 60%;
+}
