@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+font-family: 'DotGothic16', sans-serif;
+font-family: 'New Tegomin', serif;
+*/
+
+html {
+    font-family: 'New Tegomin', serif;
+    font-size : 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer>p {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 0.8rem;
+    font-style: bold ;
+}
+
+header {
+    display: flex;
+}
+
+header>h1 {
+    font-size: 3rem;
+    color : green;
+    font-style: bold;
+    width: 20%;
+    margin: 1rem 2rem 1rem 5rem;
+    flex: auto;
+}
+
+nav {
+    flex: auto;
+    max-with: auto;
+}
+
+.nav_item {
+    display: flex;
+    flex:auto 2;
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    align-items: end;
+}
+
+.main_visual {
+    display: flex;
+    margin: auto 5% auto 5%;
+}
