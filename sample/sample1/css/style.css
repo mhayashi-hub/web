@@ -10,6 +10,12 @@ html {
     font-size : 16px;
 }
 
+/*
+body {
+    font-size: 0.9rem;
+}
+*/
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'DotGothic16', sans-serif;
 }
@@ -20,38 +26,74 @@ img {
 
 footer>p {
     font-family: 'DotGothic16', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: bold ;
+    text-align: center;
+    text-decoration: underline;
 }
 
 header {
     display: flex;
 }
 
-header>h1 {
+h1 {
     font-size: 3rem;
-    color : green;
+    color : chartreuse;
+    background-color: cornflowerblue;
     font-style: bold;
-    width: 20%;
-    margin: 1rem 2rem 1rem 5rem;
-    flex: auto;
+    width:min-content ;
+    height: max-content;
+    padding: 1rem 1rem 1rem 1rem ;
+    margin: 2rem 2rem 1rem 4rem;
 }
 
 nav {
-    flex: auto;
-    max-with: auto;
+    display:flex;
 }
 
 .nav_item {
-    display: flex;
+    flex: auto 2;
+    width: fit-content;
+    margin: 5%;
+}
+
+.nav_link {
     flex:auto 2;
-    width: auto;
-    height: fit-content;
-    text-align: center;
-    align-items: end;
+    text-align: justify;
+    text-decoration: none;
 }
 
 .main_visual {
     display: flex;
-    margin: auto 5% auto 5%;
+    margin: auto 4% 5% 4%;
+}
+
+.about_section {
+    display: block;
+}
+
+h2{
+    display: block;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin: 0.5rem auto 1rem auto;
+    padding-bottom: 0.4rem;
+    border-bottom: solid 2px black;
+    font-size: 2rem;
+    background-color: rgb(153, 153, 153);
+}
+
+.about_area {
+    display:flex;
+}
+
+.hobby_section{
+    display: block;
+}
+
+.hobby_area{
+    display:flex;
+    list-style: none;
 }
