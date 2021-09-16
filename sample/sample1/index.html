@@ -12,11 +12,20 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>personal profile and hobby</title>
 </head>
+<style>
+    @media screen and (max-width:600px) {
+        .h_itemlist {
+            display: block;
+        }
+    }
+</style>
 <body>
     <header>
-        <h1>profile</h1>
+        <h1 class="site_title">
+            <a href="index.html">Profile</a>
+        </h1>
         <nav>
-            <ul class="nav_item">
+            <ul>
                 <li class="nav_link">
                     <a href="#about">about</a>
                 </li>
@@ -42,23 +51,25 @@
         </section>
         <section id="hobby" class="hobby_section">
             <h2>hobby</h2>
-            <ul>
-                <li class="img1">
-                    <img src="./img/bicycle1.jpg" alt="hobby_item1">
-                    <p>hobby1</p>
-                    <p>説明文１</p>
-                </li>
-                <li class="img2">
-                    <img src="./img/bicycle2.jpg" alt="hobby_item2">
-                    <p>hobby1</p>
-                    <p>説明文１</p>
-                </li>
-                <li class="img3">
-                    <img src="./img/bicycle3.jpg" alt="hobby_item3">
-                    <p>hobby1</p>
-                    <p>説明文１</p>
-                </li>
-            </ul>
+            <div class="hobby_area">
+                <ul class="h_itemlist">
+                    <li>
+                        <img src="./img/bicycle1.jpg" alt="hobby_item1">
+                        <p>hobby1</p>
+                        <p>説明文１</p>
+                    </li>
+                    <li>
+                        <img src="./img/bicycle2.jpg" alt="hobby_item2">
+                        <p>hobby2</p>
+                        <p>説明文２</p>
+                    </li>
+                    <li>
+                        <img src="./img/bicycle3.jpg" alt="hobby_item3">
+                        <p>hobby3</p>
+                        <p>説明文３</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>

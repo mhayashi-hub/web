@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'DotGothic16', sans-serif;
 }
 
+
 img {
     max-width: 100%;
 }
@@ -27,49 +28,52 @@ img {
 footer>p {
     font-family: 'DotGothic16', sans-serif;
     font-size: 1rem;
-    font-style: bold ;
     text-align: center;
-    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
 }
 
 header {
     display: flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 h1 {
+    display: inline;
     font-size: 3rem;
-    color : chartreuse;
-    background-color: cornflowerblue;
-    font-style: bold;
-    width:min-content ;
-    height: max-content;
-    padding: 1rem 1rem 1rem 1rem ;
-    margin: 2rem 2rem 1rem 4rem;
+    background-color: paleturquoise;
+    width: fit-content;
+    margin: 2rem 2rem 1rem;
 }
 
 nav {
-    display:flex;
-}
-
-.nav_item {
-    flex: auto 2;
-    width: fit-content;
-    margin: 5%;
+    width: 20rem;
 }
 
 .nav_link {
-    flex:auto 2;
+    display:inline;
+    width: fit-content;
     text-align: justify;
-    text-decoration: none;
+    line-height: ;
+    margin: 5% 5% 5% 10% ;
 }
 
 .main_visual {
     display: flex;
+    justify-content: center;
     margin: auto 4% 5% 4%;
 }
 
 .about_section {
     display: block;
+    justify-content: space-around;
+    align-items: center;
+    border : solid 4px rgb(182, 182, 182);
+    min-width: min-content;
+    margin: auto 5% auto 5%;
 }
 
 h2{
@@ -82,18 +86,45 @@ h2{
     padding-bottom: 0.4rem;
     border-bottom: solid 2px black;
     font-size: 2rem;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(226, 130, 40);
 }
 
 .about_area {
     display:flex;
 }
 
-.hobby_section{
-    display: block;
+.about_area>img {
+    width:150px;
+    height:150px;
+    border-radius: 30%;
+    margin: 5% 5% 5% 5%;
 }
 
-.hobby_area{
-    display:flex;
+.about_textarea>h3 {
+    justify-items:center;
+}
+
+.hobby_section{
+    margin: auto 10% 10% 10%;
+}
+
+.hobby_area {
     list-style: none;
+}
+
+.h_itemlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby_area>ul>li {
+    display:block;
+    margin: auto 5% auto 5%;
+}
+
+.hobby_area>ul>li>img {
+    width: 200px;
+}
+
+.hobby_area>ul>li>p {
 }
