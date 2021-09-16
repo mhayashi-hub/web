@@ -8,6 +8,7 @@ font-family: 'New Tegomin', serif;
 html {
     font-family: 'New Tegomin', serif;
     font-size : 16px;
+    background-color: rgb(220, 237, 255)
 }
 
 /*
@@ -22,7 +23,11 @@ h1,h2,h3,h4,h5,h6 {
 
 
 img {
-    max-width: 100%;
+max-width: 100%;
+}
+
+footer {
+    margin: auto auto 2rem auto;
 }
 
 footer>p {
@@ -45,7 +50,7 @@ h1 {
     display: inline;
     font-size: 3rem;
     background-color: paleturquoise;
-    width: fit-content;
+    width: max-content;
     margin: 2rem 2rem 1rem;
 }
 
@@ -55,7 +60,7 @@ nav {
 
 .nav_link {
     display:inline;
-    width: fit-content;
+    width: max-content;
     text-align: justify;
     line-height: ;
     margin: 5% 5% 5% 10% ;
@@ -78,7 +83,7 @@ nav {
 
 h2{
     display: block;
-    width: fit-content;
+    width: max-content;
     height: auto;
     text-align: center;
     align-items: center;
@@ -112,7 +117,7 @@ h2{
     list-style: none;
 }
 
-.h_itemlist {
+.hib_itemlist {
     display: flex;
     justify-content: space-between;
 }
@@ -127,4 +132,5 @@ h2{
 }
 
 .hobby_area>ul>li>p {
+
 }
