@@ -1,1 +1,44 @@
 @charset "utf-8";
+
+/*
+background-orign: padding-box;
+*/
+
+html {
+    font-size : 16px;
+}
+
+img {
+    max-width: 100%
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background: no-repeat repeat;
+    /*
+    background: linear-gradient(90deg, #d2cfd2, #ded2d8, #edd4d8, #fad8d4, #ffddcd, #ffe4c5, #ffeec1);
+    */
+    background: linear-gradient(90deg, #d2cfd2 2%, #ded2d8 5%, #edd4d8 8%, #fad8d4 9%, white 12% 90%, #fad8d4 92%,  #ffddcd 94%, #ffe4c5 95%, #ffeec1 100%);
+
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+footer {
+    margin: auto auto 2rem auto;
+    font-size: 1rem;
+    text-align: center;
+}
