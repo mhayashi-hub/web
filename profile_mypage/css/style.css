@@ -21,16 +21,34 @@ body {
     /*
     background: linear-gradient(90deg, #d2cfd2, #ded2d8, #edd4d8, #fad8d4, #ffddcd, #ffe4c5, #ffeec1);
     */
-    background: linear-gradient(90deg, #d2cfd2 2%, #ded2d8 5%, #edd4d8 8%, #fad8d4 9%, white 12% 90%, #fad8d4 92%,  #ffddcd 94%, #ffe4c5 95%, #ffeec1 100%);
-
+    background: linear-gradient(90deg, #d2cfd2 2%, #ded2d8 4%, #edd4d8 7%, #fad8d4 10%, rgb(205, 245, 255) 20% 85%, #fad8d4 92%,  #ffddcd 94%, #ffe4c5 95%, #ffeec1 100%);
 }
 
 header {
+    display: flex;
+    align-items: center;
+}
 
+h1{
+    display: inline;
+    width: max-content;
+    font-size: 2.5rem;
+    margin: 2rem 1rem 2rem 1rem;
+    background-color:transparent;
+    background-image: url("./img/dsc_0126.jpg");
 }
 
 nav {
+    flex: auto;
+    justify-content:flex-end;
+    justify-items:center;
+}
 
+.nav_link {
+    display: inline;
+    width: max-content;
+    text-align: justify;
+    margin: 5% 5% 5% 5%;
 }
 
 main {
@@ -41,4 +59,11 @@ footer {
     margin: auto auto 2rem auto;
     font-size: 1rem;
     text-align: center;
+}
+
+
+.map_image>iframe {
+    display: flex;
+    align-items: center ;
+    margin: 0 auto;
 }
