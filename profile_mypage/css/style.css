@@ -48,7 +48,7 @@ h2, h3 {
 
 h1{
     font-size: 2.5rem;
-    margin: 2rem 1rem 2rem 1rem;
+    margin: 2rem 1rem 2rem 3rem;
 }
 
 h2 {
@@ -71,11 +71,11 @@ nav {
     display: inline;
     width: max-content;
     text-align: justify;
-    margin: 5% 5% 5% 5%;
+    margin: auto 1rem auto 1rem ;
 }
 
 main {
-
+    display: block;
 }
 
 .visual_logo {
@@ -91,18 +91,20 @@ main {
 }
 
 .sec_title {
-    display: block;
     margin: 4% 10% 2% 10%;
 }
 
 section {
-    display: block;
     margin: 2% 4% 5% 4%;
 }
 
 .sec_blk {
     display: flex;
+    background-color: rgb(228, 215, 163);
     margin: 2% 4% 5% 4%;
+}
+
+.hobby_list {
     list-style: none;
 }
 
@@ -112,7 +114,6 @@ section {
     width: 10%;
     height: 10%;
     max-width: 15%;
-    border-radius: 15% ;
     margin: 2% 2% 2% 2%;
 }
 
@@ -129,20 +130,39 @@ section {
 }
 
 .hb_machine {
-    display: flex;
-    width: 80%;
-    justify-items: space-around;
+    display: block;
+    width: 90%;
     margin: 4% 5% 4% 5%;
 }
 
-.hb_mech_explain {
-    display: inline-block;
-    margin: auto 10% auto 10%;
+.hb_explain {
+    display: block;
+    margin: 1rem 3rem 1rem ;
+}
+
+.hb_picblk {
+    display:flex;
+    flex: auto;
 }
 
 .hb_imgblk {
-    display:flex;
-    flex:auto;
+    display: inline-block;
+    justify-content:center;
+    justify-items: space-around;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 2% 2% 2% 2%;
+}
+
+.inpage_link {
+    display: block;
+    text-align: end;
+    margin: 3% 3% 3% 3%;
+}
+
+.sky_photo {
+    display: flex;
+    flex: auto;
 }
 
 .map_image>iframe {
