@@ -6,7 +6,6 @@ background-orign: padding-box;
 
 html {
     font-size : 16px;
-    display: flex;
 }
 
 img {
@@ -22,11 +21,14 @@ body {
     /*
     background: linear-gradient(90deg, #d2cfd2, #ded2d8, #edd4d8, #fad8d4, #ffddcd, #ffe4c5, #ffeec1);
     */
-    background: linear-gradient(90deg, #d2cfd2 0.5%, #ded2d8 1%, #edd4d8 3%, #fad8d4 5%, rgb(205, 245, 255) 7% 10%, #f3ffff 20% 70%, rgb(205, 245, 255) 90% 93%, #fad8d4 95%,  #ffddcd 97%, #ffe4c5 99.5%, #ffeec1 100%);
+    background: linear-gradient(90deg, #e2d5f3 0.5%, #f3d7ed 1%, #fedbe7 3%, #ffe1e1 5%, #ffe8df 7%, #fff0e1 10%, #fff8e7 15%, #f3ffff 20% 70%, #fff8e7 75%, #fff0e1 80%, #ffe8df 83%, #ffe1e1 85%, #fedbe7 97%, #f3d7ed 99%, #e2d5f3 100%);
 }
 
 header {
+    display: flex;
     align-items: center;
+    background-color: rgba(104, 143, 228, 0.45);
+    margin: 2% 5% 2% 5%;
 }
 
 footer {
@@ -35,18 +37,21 @@ footer {
     text-align: center;
 }
 
-h1{
+h1, h2, h3 {
     display: inline;
     width: max-content;
+}
+
+h2, h3 {
+
+}
+
+h1{
     font-size: 2.5rem;
     margin: 2rem 1rem 2rem 1rem;
 }
 
-h2,h3 {
-    display: inline;
-    width: max-content;
-    justify-items: center;
-    margin: auto;
+h2 {
     font-size: 2rem;
     margin: 1.5rem 1rem 1.5rem 1rem;
 }
@@ -91,19 +96,22 @@ main {
 }
 
 section {
-    display: flex;
+    display: block;
     margin: 2% 4% 5% 4%;
 }
 
 .sec_blk {
     display: flex;
     margin: 2% 4% 5% 4%;
+    list-style: none;
 }
 
 .about_pic {
     display: flex;
     flex: auto;
-    width: 25%;
+    width: 10%;
+    height: 10%;
+    max-width: 15%;
     border-radius: 15% ;
     margin: 2% 2% 2% 2%;
 }
