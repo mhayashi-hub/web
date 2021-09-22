@@ -67,11 +67,15 @@ nav {
     justify-items:center;
 }
 
-.nav_link {
+.nav_link,.nav_link2 {
     display: inline;
     width: max-content;
     text-align: justify;
     margin: auto 1rem auto 1rem ;
+}
+
+.nav_link2 {
+    background-color: coral;
 }
 
 main {
