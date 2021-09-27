@@ -169,8 +169,28 @@ section {
     flex: auto;
 }
 
+/*
 .map_image>iframe {
+    display: flex;
+    max-width: 75%;
+    max-height: 20%;
+    align-items: center ;
+    margin: 0 auto;
+}
+*/
+
+.map_image>img {
     display: flex;
     align-items: center ;
     margin: 0 auto;
+}
+
+.map_marker {
+    Width: 40%;
+}
+
+.mapphoto_container {
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
 }
