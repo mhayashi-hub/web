@@ -37,13 +37,9 @@ footer {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     display: inline;
     width: max-content;
-}
-
-h2, h3 {
-
 }
 
 h1{
@@ -53,12 +49,17 @@ h1{
 
 h2 {
     font-size: 2rem;
-    margin: 1.5rem 1rem 1.5rem 1rem;
+    margin: 1.5rem 1rem 1rem 1rem;
 }
 
 h3 {
     font-size: 1.5rem;
-    margin: 0.5rem 2rem 0.5rem 2rem;
+    margin: 0.5rem 2rem 1rem 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0.4rem 1.5rem 0.4rem 1.5rem;
 }
 
 nav {
@@ -100,6 +101,10 @@ main {
 
 section {
     margin: 2% 4% 5% 4%;
+}
+
+section>section {
+    margin: 2% 4% 10% 4%;
 }
 
 .sec_blk {
@@ -164,11 +169,6 @@ section {
     margin: 3% 3% 3% 3%;
 }
 
-.sky_photo {
-    display: flex;
-    flex: auto;
-}
-
 .map_link {
     display: block;
     max-width: 75%;
@@ -189,9 +189,60 @@ section {
     height: 24px;
 }
 
-.mapphoto_container {
-    display: inline;
+.photo_container {
+    display: inline-block;
     margin: 0 auto;
-    width: 30%;
-    align-items: center;
+    min-width: 50%;
+}
+
+.photo_sec {
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.sky_photo {
+    display: block;
+    margin: 2% auto;
+    width: 60%;
+}
+
+.hobby_section {
+    max-width: 90%;
+}
+.hobby_section>section {
+    margin: 0.5% 5%;
+}
+
+.hobby_explain {
+    display: block;
+    margin: 2% auto 1% auto;
+    align-items: start;
+}
+.hobby_explain>p{
+    margin: 0.5% 5%;
+}
+
+.hobby_usetool {
+    display: block;
+}
+.hobby_usetool>img {
+    display: flex;
+    flex: auto;
+    align-content: center;
+}
+
+.hobby_insulated {
+    display: block;
+}
+.insulated_driver {
+    display: flex;
+    flex: auto;
+    max-width: 50%;
+}
+
+.driver_set {
+    display: flex;
+    flex:auto;
+    max-width:50%;
 }
