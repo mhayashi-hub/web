@@ -214,25 +214,22 @@ section>section {
 }
 
 .hobby_section {
+    display: block;
     max-width: 90%;
 }
 .hobby_section>section {
-    margin: 0.5% 5%;
+    margin: 0.5% 2%;
 }
 
 .hobby_explain {
     display: block;
-    margin: 2% auto 1% auto;
-    align-items: start;
-}
-.hobby_explain>p{
-    margin: 0.5% 5%;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
-.hobby_usetool {
+.hobby_usetools {
     display: block;
 }
-.hobby_usetool>img {
+.hobby_usetools>img {
     display: flex;
     flex: auto;
     align-content: center;
