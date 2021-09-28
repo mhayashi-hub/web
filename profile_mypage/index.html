@@ -42,46 +42,48 @@
         <section>
             <h2 class="sec_title" id="about">about / 自己紹介</h2>
             <div class="sec_blk">
-                <img class="about_pic" src="./img/woods_image.jpg" alt="雑木林の写真">
-                <ul class="about_item">
-                    <li>
-                        <p>名前：　林　昌彦　(はやし　まさひこ)</p>
-                        <p style="font-size: 0.8rem">近影の写真は苦手なので、雑木"林"の写真で代用してます。</p>
-                    </li>
-                    <li>
-                        <p>出身：　<a href="https://www.city.sapporo.jp/">札幌市</a></p>
-                    </li>
-                    <li class="place_items">
-                        <p>住んでた場所：</p>
-                        <ol>
-                            <li>札幌</li>
-                            <li><a href="https://www.city.kawasaki.jp/">神奈川県川崎市</a></li>
-                            <li>札幌</li>
-                            <li><a href="https://www.city.kodaira.tokyo.jp/">東京都小平市</a></li>
-                            <li>札幌(現在)</li>
-                        </ol>
-                    </li>
-                    <li>
-                        <p>年代：　おっさん</p>
-                    </li>
-                    <li>
-                        <p>趣味：　電子機器の分解や修理、PCいじり、散歩、空を見て歩くこと</p>
-                    </li>
-                </ul>
+                <div class="block_flex">
+                    <img class="about_pic" src="./img/woods_image.jpg" alt="雑木林の写真">
+                    <ul class="about_item">
+                        <li>
+                            <p>名前：　林　昌彦　(はやし　まさひこ)</p>
+                            <p style="font-size: 0.8rem">近影の写真は苦手なので、雑木"林"の写真で代用してます。</p>
+                        </li>
+                        <li>
+                            <p>出身：　<a href="https://www.city.sapporo.jp/">札幌市</a></p>
+                        </li>
+                        <li class="place_items">
+                            <p>住んでた場所：</p>
+                            <ol>
+                                <li>札幌</li>
+                                <li><a href="https://www.city.kawasaki.jp/">神奈川県川崎市</a></li>
+                                <li>札幌</li>
+                                <li><a href="https://www.city.kodaira.tokyo.jp/">東京都小平市</a></li>
+                                <li>札幌(現在)</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <p>年代：　おっさん</p>
+                        </li>
+                        <li>
+                            <p>趣味：　電子機器の分解や修理、PCいじり、散歩、空を見て歩くこと</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section>
             <h2 class="sec_title" id="hobby">hobby / 好きなこと</h2>
-            <div class="sec_blk">
-                <ul class=" hobby_list">
-                    <li>
-                        <h3>電子機器の分解修理、メンテナンス</h3>
-                        <div class="hb_explain">
+            <ul class=" hobby_list">
+                <li>
+                    <div class="sec_blk">
+                        <h3 class="sec_title">電子機器の分解修理、メンテナンス</h3>
+                        <div class="explain">
                             <p>昔に買った電子機器、PCを整備して今も使えるようにしています。</p>
                             <p>その他、動かない電子機器を分解して中身を確認したり、可能なら修理したりしています。</p>
                         </div>
-                        <div class="hb_machine">
-                            <div class="hb_picblk">
+                        <div class="hb_items">
+                            <div class="block_flex">
                                 <div class="hb_imgblk">
                                     <a href="hobby_list.html#wzero3">
                                         <img class="hb_item1" src="./img/wzero3.jpg" alt="ごく古いスマートフォンの写真">
@@ -100,21 +102,23 @@
                         </div>
                         <div class="inpage_link">
                             <p>
-                                <a href="./hobby_list.html">Hobby / 趣味 へ</a>
+                                <a href="./hobby_list.html" class="nav_link2">Hobby / 趣味 へ</a>
                             </p>
                             <p>
                                 <a href="#profile">To Page Top</a>
                             </p>
                         </div>
-                    </li>
-                    <li>
-                        <h3>空の写真</h3>
-                        <div class="sky_photo_intro" id="sky_photo">
-                            <div class="hb_explain">
-                                <p>最近とった空の写真とか。<br>秋晴れの空はきれいな青が出ていてすごく好きです。</p>
-                                <p>撮影日はまちまちで、同じ日に撮った写真を時系列で並べたりとかはしていません。</p>
-                            </div>
-                            <div class="sky_photo">
+                    </div>
+                </li>
+                <li>
+                    <div class="sec_blk">
+                        <h3 class="sec_title">空の写真</h3>
+                        <div class="explain">
+                            <p>最近とった空の写真とか。<br>秋晴れの空はきれいな青が出ていてすごく好きです。</p>
+                            <p>撮影日はまちまちで、同じ日に撮った写真を時系列で並べたりとかはしていません。</p>
+                        </div>
+                        <div class="hb_items">
+                            <div class="block_flex">
                                 <div class="hb_imgblk">
                                     <img src="./img/main_sky1.jpg" alt="空の写真1">
                                     <p>少し前に撮影した、抜けるような青い空。</p>
@@ -128,16 +132,17 @@
                                     <p>別の日に撮影した秋空。<br>薄い雲が流れていました。</p>
                                 </div>
                             </div>
-                            <div class="inpage_link">
-                                <p>
-                                    <a href="./sky_map.html">Sky Photo / 空の写真 へ</a>
-                                </p>
-                                <p>
-                                    <a href="#profile">To Page Top</a>
-                                </p>
-                            </div>
-                    </li>
-            </div>
+                        </div>
+                        <div class="inpage_link">
+                            <p>
+                                <a href="./sky_map.html" class="nav_link2">Sky Photo / 空の写真 へ</a>
+                            </p>
+                            <p>
+                                <a href="#profile">To Page Top</a>
+                            </p>
+                        </div>
+                </li>
+                </div>
             </ul>
         </section>
         <div class="inpage_link">
