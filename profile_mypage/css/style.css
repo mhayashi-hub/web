@@ -196,15 +196,16 @@ section>section {
 }
 
 .photo_container {
-    display: inline-block;
-    margin: 0 auto;
-    min-width: 50%;
+    display: flex;
+    flex: auto;
+    margin: 0 1rem;
 }
 
 .photo_sec {
     display: block;
-    margin: 5% auto;
+    margin: 5% 2% 5% 1%;
     text-align: center;
+    min-width: 55%;
 }
 
 .sky_photo {
