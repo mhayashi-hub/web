@@ -229,10 +229,6 @@ main {
     vertical-align: top;
 }
 
-.photo_comment {
-    display: block;
-}
-
 /* css for hobby_list */
 .hobby_section>section {
     margin: 0.5% 2%;
