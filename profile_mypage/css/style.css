@@ -122,6 +122,33 @@ section {
     margin: 0;
 }
 
+.block_init {
+    display: block;
+}
+
+.columns {
+    display: flex;
+    flex: auto;
+    max-width: 50%;
+}
+
+.explain {
+    margin: 1rem 3rem 1rem ;
+}
+
+.inpage_link {
+    display: block;
+    text-align: end ;
+    margin:1% 3% 1% 3%;
+}
+
+.inpage_link>p {
+    display: inline;
+    text-align: space-around;
+    margin: 4% 4% 4% 4%;
+}
+
+/* css for index */
 .about_pic {
     display: flex;
     flex: auto;
@@ -163,10 +190,6 @@ section {
     margin: auto 1rem auto 1rem ;
 }
 
-.explain {
-    margin: 1rem 3rem 1rem ;
-}
-
 .hb_items {
     width: 90%;
     margin: 2% 5% 1% 5%;
@@ -180,18 +203,7 @@ section {
     margin: 2% 2% 2% 2%;
 }
 
-.inpage_link {
-    display: block;
-    text-align: end ;
-    margin:1% 3% 1% 3%;
-}
-
-.inpage_link>p {
-    display: inline;
-    text-align: space-around;
-    margin: 4% 4% 4% 4%;
-}
-
+/* css for sky_map */
 .map_link {
     display: block;
     max-width: 75%;
@@ -228,35 +240,12 @@ section {
     display: block;
 }
 
-
+/* css for hobby_list */
 .hobby_section {
     display: block;
     max-width: 90%;
 }
+
 .hobby_section>section {
     margin: 0.5% 2%;
-}
-
-.hobby_usetools {
-    display: block;
-}
-.hobby_usetools>img {
-    display: flex;
-    flex: auto;
-    align-content: center;
-}
-
-.hobby_insulated {
-    display: block;
-}
-.insulated_driver {
-    display: flex;
-    flex: auto;
-    max-width: 50%;
-}
-
-.driver_set {
-    display: flex;
-    flex:auto;
-    max-width:50%;
 }
